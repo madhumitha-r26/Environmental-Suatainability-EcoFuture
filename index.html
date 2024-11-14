@@ -1,246 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EcoFuture</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="imgs/logo.png">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="imgs/logo.png" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top" data-bs-spy="scroll" data-bs-target="#navId">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"> ECOFUTURE </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="border: none;"
-              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span id="navbar-hamburger">
-                  <i class="fa fa-bars"></i>
-                </span>
-                <span id="navbar-close" style="display: none;">
-                  <i class="fa fa-close"></i>
-                </span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav nav-pills ms-auto" style="justify-content:end;">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#focus">Focus</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#blogs">Blogs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav
+        class="navbar navbar-expand-lg fixed-top"
+        data-bs-spy="scroll"
+        data-bs-target="#navId"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> ECOFUTURE </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            style="border: none"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span id="navbar-hamburger">
+              <i class="fa fa-bars"></i>
+            </span>
+            <span id="navbar-close" style="display: none">
+              <i class="fa fa-close"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav nav-pills ms-auto"
+              style="justify-content: end"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#focus">Focus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    
-<div class="main" data-bs-spy="scroll" data-bs-target="#simple-list-example"
-data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
 
-    <section id="home">
-      <div class="hero__section_container">
-        <h3 class="display-6 text-center fw-bolder">TOGETHER, WE BUILD A RESILIENT WORLD IN HARMONY WITH NATURE.</h3>
-        
-    </div>
-    </section>
+    <div
+      class="main"
+      data-bs-spy="scroll"
+      data-bs-target="#simple-list-example"
+      data-bs-offset="0"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example"
+      tabindex="0"
+    >
+      <section id="home">
+        <div class="hero__section_container">
+          <h3 class="display-6 text-center fw-bolder">
+            TOGETHER, WE BUILD A RESILIENT WORLD IN HARMONY WITH NATURE.
+          </h3>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">DONATE US</button>
 
-    <section id="about" class="p-3"> 
-      <div class="ab1">
-        <div class="ab2 p-2">
-            <img src="imgs/about_pic.jpg" width="100%" height="auto" alt="environmental-sustainability">
-        </div>
-        <div class="ab3 pt-3">
-          <p class="text-end fs-3 fw-bold fst-italic">Our Vision</p> 
-            <p style="text-align: justify;" class="ps-2">
-           ECOFUTURE is an organization dedicated to fostering a world where human activities harmoniously coexist with the natural environment. Our mission involves a fundamental shift in how we approach various aspects of our lives, including daily routines, industrial practices, and community engagements. We believe that every action, no matter how small, can contribute positively to the environment when carried out with intention and care. 
-           We are committed to ensuring the well-being of the environment by protecting the air we breathe, the water we drink, and the land we live on. This holistic approach acknowledges that the health of our planet is intrinsically linked to our own health and well-being. At ECOFUTURE, we understand that achieving a sustainable future requires the collective effort and collaboration of individuals, communities, organizations, and governments. 
-           It is only through unified action and shared responsibility that we can create lasting change.Our approach thrives on finding a balance between human needs and environmental preservation. We emphasize resilience, ensuring that our systems and practices can adapt to and recover from environmental challenges. At the core of our vision is a profound respect for the planet. This respect guides our actions and inspires us to protect and nurture the environment for future generations.
-            </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="focus" class="p-3">
-      <p class="text-center fs-3 fw-bold fst-italic">Areas where we focus on</p>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-          <img src="https://images.pexels.com/photos/18737432/pexels-photo-18737432/free-photo-of-foliage-of-trees.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus1">
-                <div class="card-body">
-                  <h5 class="card-title fw-bold">Conservation of Natural Resources</h5>
-                  <p class="card-text" style="text-align: justify;">We work to protect and manage vital resources such as water, air, soil, minerals, and forests. By advocating for sustainable practices, we ensure these resources remain available for generations to come.</p>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Enter the Amount</h1>
+                  <button type="button" class="btn-close" style="background-color:transparent;" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <input type="number" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Enter the Amount">
+                  </div>
+ 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" style="width: 100%;">DONATE</button>
                 </div>
               </div>
-      </div>
-    
-      <div class="col">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/8318254/pexels-photo-8318254.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus2">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Climate Change Mitigation</h5>
-            <p class="card-text" style="text-align: justify;">Reducing greenhouse gas emissions is at the heart of our mission. We promote the use of renewable energy sources, energy efficiency, and sustainable practices to combat global warming and its adverse effects.</p>
+            </div>
           </div>
-        </div>
-      </div> 
+          
 
-      <div class="col">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/6076272/pexels-photo-6076272.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus3">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Water Conservation</h5>
-            <p class="card-text" style="text-align: justify;">Efficient use and protection of water resources are vital. We implement practices that ensure the availability of clean water for all living organisms, promoting water conservation and sustainable usage.</p>
-          </div>
         </div>
-      </div> 
+      </section>
 
-      <div class="col">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/12491634/pexels-photo-12491634.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus4">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Waste Management</h5>
-            <p class="card-text" style="text-align: justify;">We advocate for reducing, reusing, and recycling waste to minimize environmental pollution and landfill use by encourage responsible waste management practices.</p>
+      <section id="about" class="p-3">
+        <div class="ab1">
+          <div class="ab2 p-2">
+            <img
+              src="imgs/about_pic.jpg"
+              width="100%"
+              height="auto"
+              alt="environmental-sustainability"
+            />
+          </div>
+          <div class="ab3 pt-3">
+            <p class="text-end fs-3 fw-bold fst-italic">Our Vision</p>
+            <p style="text-align: justify" class="ps-2">
+              ECOFUTURE is an organization dedicated to fostering a world where
+              human activities harmoniously coexist with the natural
+              environment. Our mission involves a fundamental shift in how we
+              approach various aspects of our lives, including daily routines,
+              industrial practices, and community engagements. We believe that
+              every action, no matter how small, can contribute positively to
+              the environment when carried out with intention and care. We are
+              committed to ensuring the well-being of the environment by
+              protecting the air we breathe, the water we drink, and the land we
+              live on. This holistic approach acknowledges that the health of
+              our planet is intrinsically linked to our own health and
+              well-being. At ECOFUTURE, we understand that achieving a
+              sustainable future requires the collective effort and
+              collaboration of individuals, communities, organizations, and
+              governments. It is only through unified action and shared
+              responsibility that we can create lasting change.Our approach
+              thrives on finding a balance between human needs and environmental
+              preservation. We emphasize resilience, ensuring that our systems
+              and practices can adapt to and recover from environmental
+              challenges. At the core of our vision is a profound respect for
+              the planet. This respect guides our actions and inspires us to
+              protect and nurture the environment for future generations.
+            </p>
           </div>
         </div>
-      </div> 
+      </section>
 
-      <div class="col">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/3976320/pexels-photo-3976320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus5">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Renewable Energy</h5>
-            <p class="card-text" style="text-align: justify;">Promoting the adoption of renewable energy sources such as solar, wind, hydro, and geothermal helps reduce our dependence on fossil fuels and mitigate climate change.</p>
+      <section id="focus" class="p-3">
+        <p class="text-center fs-3 fw-bold fst-italic">
+          Areas where we focus on
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/18737432/pexels-photo-18737432/free-photo-of-foliage-of-trees.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus1"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  Conservation of Natural Resources
+                </h5>
+                <p class="card-text" style="text-align: justify">
+                  We work to protect and manage vital resources such as water,
+                  air, soil, minerals, and forests. By advocating for
+                  sustainable practices, we ensure these resources remain
+                  available for generations to come.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div> 
-    
-      <div class="col">
-        <div class="card">
-          <img src="https://images.pexels.com/photos/16227451/pexels-photo-16227451/free-photo-of-solar-farm-in-town.jpeg?auto=compress&cs=tinysrgb&w=600" alt="focus6">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Sustainable Urban Development</h5>
-            <p class="card-text" style="text-align: justify;">We strive to create environmentally friendly, socially inclusive, and economically viable cities and communities through sustainable urban planning and development.</p>
-          </div>
-        </div>
-      </div>
-     
-    </div>
-    <br>
-    
-    </section>
 
-    <section id="blogs" class="p-3">
-      <p class="text-center fs-3 fw-bold fst-italic">Read amazing blogs from our volunteers</p>   
-      <div class="row row-cols-1 row-cols-md-2 m-2 g-3">
-            
-        <div class="col">
-        <div class="card">
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/8318254/pexels-photo-8318254.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus2"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Climate Change Mitigation</h5>
+                <p class="card-text" style="text-align: justify">
+                  Reducing greenhouse gas emissions is at the heart of our
+                  mission. We promote the use of renewable energy sources,
+                  energy efficiency, and sustainable practices to combat global
+                  warming and its adverse effects.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/6076272/pexels-photo-6076272.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus3"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Water Conservation</h5>
+                <p class="card-text" style="text-align: justify">
+                  Efficient use and protection of water resources are vital. We
+                  implement practices that ensure the availability of clean
+                  water for all living organisms, promoting water conservation
+                  and sustainable usage.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/12491634/pexels-photo-12491634.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus4"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Waste Management</h5>
+                <p class="card-text" style="text-align: justify">
+                  We advocate for reducing, reusing, and recycling waste to
+                  minimize environmental pollution and landfill use by encourage
+                  responsible waste management practices.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/3976320/pexels-photo-3976320.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus5"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Renewable Energy</h5>
+                <p class="card-text" style="text-align: justify">
+                  Promoting the adoption of renewable energy sources such as
+                  solar, wind, hydro, and geothermal helps reduce our dependence
+                  on fossil fuels and mitigate climate change.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/16227451/pexels-photo-16227451/free-photo-of-solar-farm-in-town.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="focus6"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  Sustainable Urban Development
+                </h5>
+                <p class="card-text" style="text-align: justify">
+                  We strive to create environmentally friendly, socially
+                  inclusive, and economically viable cities and communities
+                  through sustainable urban planning and development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </section>
+
+      <section id="blogs" class="p-3">
+        <p class="text-center fs-3 fw-bold fst-italic">
+          Read amazing blogs from our volunteers
+        </p>
+        <div class="row row-cols-1 row-cols-md-2 m-2 g-3">
+          <div class="col">
+            <div class="card">
               <div class="img-wrapper pt-3 px-2">
-                <img src="imgs/avatar-1.jpg" class="rounded float-start" alt="blog-1" style="height: 75px;width: 75px;"><h5 class="p-3 display-5 card-title"> &nbsp; Saina</h5>
+                <img
+                  src="imgs/avatar-1.jpg"
+                  class="rounded float-start"
+                  alt="blog-1"
+                  style="height: 75px; width: 75px"
+                />
+                <h5 class="p-3 display-5 card-title">&nbsp; Saina</h5>
               </div>
               <div class="card-body">
-                <p class="card-text">Joining ECOFUTURE has been a transformative experience for me. Through our collective efforts, we are creating a world where human activities coexist harmoniously with the natural environment. <span class="rm">Read more..</span>  </p>
-              </div> 
-        </div>   
-      </div>  
+                <p class="card-text">
+                  Joining ECOFUTURE has been a transformative experience for me.
+                  Through our collective efforts, we are creating a world where
+                  human activities coexist harmoniously with the natural
+                  environment. <span class="rm" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read more..</span>
+                  
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Saina</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                          Joining ECOFUTURE has been a transformative experience for me. From the moment I became a part of this incredible organization, my perspective on sustainability and environmental stewardship has evolved in ways I never anticipated. Through our collective efforts, we are not just talking about change—we are making it happen. Our mission is to create a world where human activities coexist harmoniously with the natural environment. This vision drives all our initiatives and fuels our passion for making a positive impact.
 
-        <div class="col">
-        <div class="card">
+                          In this blog, I will chronicle my personal journey towards sustainable living. I'll share practical tips and insights that I've gathered along the way, demonstrating how small changes in our daily lives can make a significant difference. Simple actions like reducing waste, conserving energy, and making conscious choices in our consumption habits can lead to profound environmental benefits.
+                          
+                          Reducing waste was one of the first steps I took. By switching to reusable items and composting organic waste, I noticed a substantial decrease in the amount of trash I generated. This not only helped the environment but also made me more mindful of my consumption patterns.
+                          
+                          Conserving energy has also been a key focus. I've implemented energy-saving practices such as using LED lights, unplugging devices when not in use, and utilizing natural light whenever possible. These efforts have significantly reduced my energy consumption and lowered my carbon footprint.
+                          
+                          Through these experiences, I have seen the positive impact that sustainable living can have on both the environment and my well-being. The sense of purpose and fulfillment that comes from knowing I am contributing to a healthier planet is incredibly rewarding. I hope that by sharing my journey, I can inspire others to take similar steps towards sustainability. Together, we can create a more resilient and balanced world where human activities harmonize with nature.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
               <div class="img-wrapper pt-3 px-2">
-                <img src="imgs/avatar-2.jpg" class="rounded float-start" alt="blog-2" style="height: 75px;width: 75px;"><h5 class="p-3 display-5 card-title">&nbsp; John</h5>
+                <img
+                  src="imgs/avatar-2.jpg"
+                  class="rounded float-start"
+                  alt="blog-2"
+                  style="height: 75px; width: 75px"
+                />
+                <h5 class="p-3 display-5 card-title">&nbsp; John</h5>
               </div>
               <div class="card-body">
-                <p class="card-text">At ECOFUTURE, we believe that a sustainable future requires collective effort and collaboration. This blog highlights the importance of working together as communities, organizations, and governments <span class="rm">Read more..</span>  </p>
-              </div>
-        </div>
-      </div>
+                <p class="card-text">
+                  At ECOFUTURE, we believe that a sustainable future requires
+                  collective effort and collaboration. This blog highlights the
+                  importance of working together as communities, organizations,
+                  and governments <span class="rm" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read more..</span>
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">John</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                          At ECOFUTURE, we firmly believe that achieving a sustainable future is not a task that can be accomplished by isolated efforts. It requires the collective endeavor and collaboration of communities, organizations, and governments. This blog aims to highlight the crucial role of teamwork in driving lasting environmental change.
 
-        <div class="col">
-        <div class="card">
+                          Throughout our journey, we have seen the incredible impact that can be made when diverse groups come together with a shared vision. I'll be sharing stories of successful partnerships and initiatives that have significantly advanced environmental sustainability. These examples will illustrate how collaborative efforts can address complex ecological challenges, combining resources, expertise, and passion to create innovative solutions.
+                          
+                          For instance, one of our standout projects involved partnering with local communities and businesses to implement a comprehensive waste management program. By working together, we were able to reduce waste, increase recycling rates, and raise awareness about sustainable practices. This initiative not only benefited the environment but also strengthened community bonds and inspired further collaborative projects.
+                          
+                          Another successful example is our joint initiative with governmental agencies to restore and protect natural habitats. Through coordinated efforts, we have managed to rehabilitate damaged ecosystems, support biodiversity, and enhance the resilience of local environments to climate change. These projects have shown that when governments, NGOs, and local communities work in unison, the impact is far greater than any single entity could achieve alone.
+                          
+                          By showcasing these stories, we hope to inspire others to join the movement towards a sustainable future. We want to demonstrate that every contribution, no matter how small, is valuable and that by working together, we can build a resilient and balanced world. A world where human activities are in harmony with nature, ensuring the well-being of our planet and all its inhabitants.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
               <div class="img-wrapper pt-3 px-2">
-                <img src="imgs/avatar-3.jpg" class="rounded float-start" alt="blog-3" style="height: 75px;width: 75px;"><h5 class="p-3 display-5 card-title">&nbsp; Kunal</h5>
+                <img
+                  src="imgs/avatar-3.jpg"
+                  class="rounded float-start"
+                  alt="blog-3"
+                  style="height: 75px; width: 75px"
+                />
+                <h5 class="p-3 display-5 card-title">&nbsp; Kunal</h5>
               </div>
               <div class="card-body">
-                <p class="card-text">Respect for the planet is at the core of ECOFUTURE's vision. In this blog, I'll explore what it means to truly respect our environment and how this respect guides our actions. <span class="rm">Read more..</span>  </p>
+                <p class="card-text">
+                  Respect for the planet is at the core of ECOFUTURE's vision.
+                  In this blog, I'll explore what it means to truly respect our
+                  environment and how this respect guides our actions.
+                  <span class="rm" data-bs-toggle="modal" data-bs-target="#exampleModal4">Read more..</span>
+                  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Kunal</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                          Respect for the planet is at the very heart of ECOFUTURE's vision. This foundational principle drives every decision we make and every action we take. But what does it truly mean to respect our environment? It's about more than just reducing our carbon footprint or conserving resources; it's about fostering a deep, intrinsic appreciation for the natural world and understanding our role within it. In this blog, I will explore what it means to truly respect our environment and how this respect guides our actions at ECOFUTURE. Our approach is multifaceted, encompassing everything from protecting natural resources to promoting sustainable practices that ensure the health and vitality of our planet for future generations.At ECOFUTURE, we recognize that our natural resources are finite and must be protected. This means advocating for the conservation of water, air, soil, and biodiversity. Our projects often involve initiatives like reforestation, sustainable water management, and habitat preservation. By protecting these critical resources, we ensure that ecosystems can thrive and continue to provide the essential services that all life depends on.
+                          Respecting the planet also involves promoting sustainable practices in our daily lives and within our communities. This includes everything from reducing waste and recycling to adopting renewable energy sources and supporting eco-friendly businesses. Through educational programs and community outreach, we aim to empower individuals and organizations to make sustainable choices that collectively have a significant impact.
+                          Throughout my journey with ECOFUTURE, I've gathered many insights and reflections on how we can nurture and preserve the world around us. It's clear that individual actions, no matter how small, can lead to substantial changes when adopted widely. Simple practices like using reusable products, conserving water, and supporting local, sustainable agriculture can make a big difference. Additionally, fostering a mindset of respect and responsibility towards the environment can inspire others to join the cause.
+                          Ultimately, to honor and care for our planet, we must view ourselves as stewards of the Earth, with a responsibility to protect and sustain it. This means making conscious decisions that prioritize environmental health over convenience or profit. It means advocating for policies that protect natural habitats and reduce pollution. It means teaching the next generation the value of nature and the importance of sustainability.Join me as we delve into the many ways we can honor and care for our planet. By sharing these stories and insights, I hope to inspire others to embrace a lifestyle that respects and nurtures the environment. Together, we can create a sustainable future where human activities harmonize with the natural world, ensuring a thriving planet for generations to come.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
               </div>
-        </div> 
-      </div>  
-    
-    <div class="col">
-        <div class="card">
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
               <div class="img-wrapper pt-3 px-2">
-                <img src="imgs/avatar-4.jpg" class="rounded float-start" alt="blog-4" style="height: 75px;width: 75px;"> <h5 class="p-3 display-5 card-title">&nbsp; Adhi</h5>
+                <img
+                  src="imgs/avatar-4.jpg"
+                  class="rounded float-start"
+                  alt="blog-4"
+                  style="height: 75px; width: 75px"
+                />
+                <h5 class="p-3 display-5 card-title">&nbsp; Adhi</h5>
               </div>
               <div class="card-body">
-                <p class="card-text">Empowering communities is essential for achieving environmental sustainability. In this blog, I'll discuss the various ways ECOFUTURE supports and uplifts communities to create a greener future. <span class="rm">Read more..</span>  </p>
+                <p class="card-text">
+                  Empowering communities is essential for achieving
+                  environmental sustainability. In this blog, I'll discuss the
+                  various ways ECOFUTURE supports and uplifts communities to
+                  create a greener future. <span class="rm" data-bs-toggle="modal" data-bs-target="#exampleModal5">Read more..</span>
+                  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Adhi</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: justify;">
+                          Empowering communities is fundamental to achieving environmental sustainability. At ECOFUTURE, we understand that real, lasting change begins at the grassroots level, where individuals and groups come together to address local challenges and develop sustainable solutions. In this blog, I’ll discuss the various ways ECOFUTURE supports and uplifts communities to create a greener future.
+Education is a powerful tool for empowerment. At ECOFUTURE, we run numerous educational programs aimed at raising awareness about environmental issues and teaching sustainable practices. From workshops on recycling and composting to seminars on renewable energy and sustainable agriculture, we provide communities with the knowledge and skills they need to make informed decisions and take meaningful actions. By educating people, we empower them to become stewards of the environment.
+Access to resources is another critical aspect of community empowerment. ECOFUTURE works tirelessly to distribute essential resources such as clean water, renewable energy solutions, and eco-friendly materials to underserved communities. For instance, we have implemented solar panel projects in remote areas, providing clean and reliable energy to households that previously had no access to electricity. These initiatives not only improve the quality of life for community members but also reduce their environmental impact.
+Collaboration is at the heart of our approach. ECOFUTURE partners with local organizations, businesses, and governments to implement projects that address specific environmental challenges. By combining our expertise and resources, we can achieve greater impact. One such project involved creating community gardens in urban areas, transforming unused spaces into green oases where residents can grow their own food, learn about sustainable gardening, and connect with nature. These gardens have not only provided fresh produce but have also fostered a sense of community and shared responsibility for the environment.
+We are proud to support and highlight community-driven initiatives that make a tangible difference. For example, a group of young entrepreneurs we partnered with developed a waste-to-energy project that converts organic waste into biogas, providing a sustainable energy source for their community. Their innovative approach has significantly reduced waste and improved local energy security. Stories like these demonstrate the incredible potential of community-led solutions and the positive outcomes they can achieve.
+The positive impact of these efforts is evident in the transformations we see within communities. By empowering individuals with knowledge, resources, and collaborative opportunities, we are building a network of environmentally conscious citizens who are committed to creating a sustainable future. Together, we can build a world where human activities harmonize with nature, ensuring the well-being of all.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
               </div>
+            </div>
+          </div>
         </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-<section id="contact" class="p-3">
-      <p class="text-center fs-3 fw-bold fst-italic">Feel free to ask your queries and send your feedbacks</p>
-      <form action="mailto:ecofutureofficial@gmail.com?subject=Feedback regarding your focus" method="post" enctype="text/plain">
-        <div class="cn">
-          <input type="text" placeholder="Enter First Name" name="first name" required id="fn"> 
-          <input type="text" placeholder="Enter Last Name" name="last name" required id="ln"> 
+      <section id="product" class="p-3">
+        <p class="text-center fs-3 fw-bold fst-italic">
+          The products that we have launched by recycling
+        </p>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card">
+              <img src="imgs/tote bag.png" class="card-img-top" alt="product-1">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Tote Bag</h5>
+                <p class="card-text">This is made with the help of the waste clothes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="imgs/planter.jpeg" class="card-img-top" alt="product-2">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Planter</h5>
+                <p class="card-text">This is made with the help of the plastic bottles.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="imgs/furnitures.jpeg" class="card-img-top" alt="product-3">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Garden Furniture</h5>
+                <p class="card-text">This is made with the help of the oil barrels.</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <input type="email" placeholder="Enter Email" name="email" required> 
-        <br>
-        <input type="phone" placeholder="Enter Phone" name="phone" required> 
-        <br>
-        
-       <textarea placeholder="Type your Message..." name="message" cols="8"></textarea>
+      </section>
+
+        <footer class="fw-medium fs-4">
+          <div class="cn" id="contact">
+            <div class="social">
+              <p><b>Connect Us</b></p>
+              <div class="con__icons">
+                <a href="https://web.whatsapp.com/"
+                  ><i class="bi bi-whatsapp"></i></a
+                >&nbsp;&nbsp;
+                <a href="https://www.instagram.com/"
+                  ><i class="bi bi-instagram"></i></a
+                >&nbsp;&nbsp;
+                <a href="https://www.facebook.com/"
+                  ><i class="bi bi-facebook"></i></a
+                >&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/"
+                  ><i class="bi bi-linkedin"></i></a
+                >&nbsp;&nbsp;
+                <a href="https://www.twitter.com/">
+                  <i class="bi bi-twitter-x"></i></a
+                >&nbsp;&nbsp;
+                <a href="https://www.youtube.com/"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </div>
+              <br/>
+              <p><i class="bi bi-telephone-fill"></i>&nbsp; 0452-2478569</p>
+              <p>
+                <i class="bi bi-envelope-fill"></i>&nbsp;
+                ecofutureofficial@gmail.com
+              </p>
+              <p> <i class="bi bi-geo-alt-fill"></i>&nbsp;Madurai,Tamil
+                Nadu,India
+              </p>
+            </div>
+
+            <div class="newsletter">
+              © 2024 EcoFuture - All rights reserved.<br>
+              <hr>
+
+              <form
+          action="mailto:ecofutureofficial@gmail.com?subject=Feedback regarding your focus"
+          method="post"
+          enctype="text/plain">
+
+          <input type="email" placeholder="Enter Email" name="email" required />
+          <button id="send_btn"><i class="bi bi-send-fill"></i> Send</button>
+
+        </form>
+          </div>  
+            </div>
+          </div>         
+            </div>        
+          
+        </footer>
       
-      <br>  <br>
-    
-      <div class="cn" id="contact">
-    
-        <div class="social">
-        <p><b>Connect Us</b></p>
-        <div class="con__icons">
-        <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>&nbsp;&nbsp;
-        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
-        <a href="https://www.twitter.com/"> <i class="bi bi-twitter-x"></i></a>&nbsp;&nbsp;
-        <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
-      </div>
-<br>
-        <p><i class="bi bi-telephone-fill"></i>&nbsp; 0452-2478569</p>
-        <p><i class="bi bi-envelope-fill"></i>&nbsp; ecofutureofficial@gmail.com</p>
-        <address><i class="bi bi-geo-alt-fill"></i>&nbsp; Madurai,Tamil Nadu,India</address>
     </div>
-        <button id="send_btn"><i class="bi bi-send-fill"></i> Send</button>
-      </div>
-  </form>
-  <footer class="fw-medium fs-4">
-    © 2024 EcoFuture - All rights reserved.
-  </footer>
-</section>
-</div>
 
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
-
-</body>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
